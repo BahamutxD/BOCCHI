@@ -1,0 +1,28 @@
+{
+  "Author": "Faye",
+  "Name": "Better Occult Crescent & Chest Helper Interface",
+  "InternalName": "BOCCHI",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "A helper for Occult Crescent.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "BOCCHI",
+    "Occult Crescent",
+    "Occult",
+    "Crescent",
+    "Illegal",
+    "Critical Encounter",
+    "Fate",
+    "Faye",
+    "BOCCHER",
+    "OCH"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/OhKannaDuh/OccultCrescentHelper/refs/heads/master/assets/icon.png",
+  "Punchline": "BOCCHI is here to smooth out your Occult Crescent experience.",
+  "AcceptsFeedback": true
+}

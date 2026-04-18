@@ -1,0 +1,222 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BOCCHI/0.0.0.1": {
+        "dependencies": {
+          "FFXIVOcelot": "1.1.2",
+          "TextCopy": "6.2.1"
+        },
+        "runtime": {
+          "BOCCHI.dll": {}
+        }
+      },
+      "ECommons/3.1.0.2": {
+        "runtime": {
+          "lib/net10.0-windows7.0/ECommons.dll": {
+            "assemblyVersion": "3.1.0.2",
+            "fileVersion": "3.1.0.2"
+          }
+        }
+      },
+      "FFXIVOcelot/1.1.2": {
+        "dependencies": {
+          "ECommons": "3.1.0.2",
+          "Pictomancy": "0.0.2"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Ocelot.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Pictomancy/0.0.2": {
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "runtime": {
+          "lib/net10.0-windows7.0/Pictomancy.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SharpDX/4.2.0": {
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct2D1.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Mathematics.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "TextCopy/6.2.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/TextCopy.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BOCCHI/0.0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/3.1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NFVf3G23lRGnZ7xEIFWzXc61LHfLfkyw2NwYc/sYoldehzurPc49Kg4DbVksqSyhEknsTTD0LkpcxPNV16ziUw==",
+      "path": "ecommons/3.1.0.2",
+      "hashPath": "ecommons.3.1.0.2.nupkg.sha512"
+    },
+    "FFXIVOcelot/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pk3bnLtJ0BznK94/WbP7v9y5C10VqPJZ3HW4Z8JQQ9jwPO8mipd/Kjzo6ULMbDYUVFtSA7dnw6stDLabnxw8Fg==",
+      "path": "ffxivocelot/1.1.2",
+      "hashPath": "ffxivocelot.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Pictomancy/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-th7LcwtMgGWbhfZu7cyKYQKIOpRHzC/O9YvbWy5FSEs0zs1rgC/jgFg1MuX6F4XireR3XJgmg+RcHY+TCKBpsw==",
+      "path": "pictomancy/0.0.2",
+      "hashPath": "pictomancy.0.0.2.nupkg.sha512"
+    },
+    "SharpDX/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "path": "sharpdx/4.2.0",
+      "hashPath": "sharpdx.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "hashPath": "sharpdx.d3dcompiler.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct2D1/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qs8LzDMaQf1u3KB8ArHu9pDv6itZ++QXs99a/bVAG+nKr0Hx5NG4mcN5vsfE0mVR2TkeHfeUm4PksRah6VUPtA==",
+      "path": "sharpdx.direct2d1/4.2.0",
+      "hashPath": "sharpdx.direct2d1.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "hashPath": "sharpdx.direct3d11.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "path": "sharpdx.dxgi/4.2.0",
+      "hashPath": "sharpdx.dxgi.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Mathematics/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pcKLgdsP9p5WyTjHmGOZ0ka0zASAZYc6P4L6rSvjYhf6klGYbent7MiVwbkwkt9dD44p5brjy5IwAnVONWGw==",
+      "path": "sharpdx.mathematics/4.2.0",
+      "hashPath": "sharpdx.mathematics.4.2.0.nupkg.sha512"
+    },
+    "TextCopy/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ryejViUBmHQ2XMie2AiRBn7KVKu2Gh/hqrctGSAUf1BufwfPjr+MWuACNBaiG+40TMbWRDJZgV73Tpl9hggeRw==",
+      "path": "textcopy/6.2.1",
+      "hashPath": "textcopy.6.2.1.nupkg.sha512"
+    }
+  }
+}
